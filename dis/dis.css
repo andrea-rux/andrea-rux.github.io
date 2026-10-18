@@ -1,0 +1,44 @@
+body {
+
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+    background-color: rgb(255, 255, 255);
+  
+}
+
+.wrapper{
+
+    margin: auto;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img{
+
+    box-sizing: content-box;
+    width: 70%;
+    object-fit: fill;
+    justify-self: center;
+    
+}
+
+.back-arrow {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-left: 5vw;
+    padding-top: 2vw;
+    mix-blend-mode: difference;
+}
+
+.back-arrow:hover {
+    text-decoration: underline;
+}

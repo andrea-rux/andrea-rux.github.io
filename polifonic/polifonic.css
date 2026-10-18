@@ -1,0 +1,90 @@
+body {
+
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+    background-color: rgb(13, 13, 13);
+  
+}
+
+.titolo {
+
+    padding-top: 10vh;
+    padding-bottom: 1vh;
+    font-size: 1.3rem;
+    font-weight: 550;
+    line-height: normal;
+    box-sizing: content-box;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+
+}
+
+#sotto {
+
+    font-size: 1rem;
+    font-weight: lighter;
+    padding-top: 0;
+    padding-bottom: 10vh;
+    width: 100%;
+    text-align: center;
+
+}
+
+h1 {
+
+    text-align: center;
+
+}
+
+.wrapper{
+
+
+    width: 100%;
+    height: auto;
+
+}
+
+.parent { 
+
+    object-fit: fill;
+    display: grid;
+    grid-template-columns: repeat(2, 44.5vw); 
+    grid-template-rows: repeat(7, auto);
+    column-gap: 1vw;
+    row-gap: 1vh;
+    width: 90vw;
+    margin: auto;
+
+}
+
+img{
+
+    box-sizing: content-box;
+    width: 100%;
+    object-fit: fill;
+    
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 3; } 
+.div2 { grid-area: 2 / 1 / 3 / 3; } 
+.div3 { grid-area: 3 / 1 / 4 / 2; } 
+.div4 { grid-area: 3 / 2 / 4 / 3; } 
+.div8 { grid-area: 7 / 1 / 8 / 3; } 
+.div9 { grid-area: 8 / 1 / 9 / 3; }
+
+.back-arrow {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-left: 5vw;
+    padding-top: 2vw;
+    mix-blend-mode: difference;
+}
+
+.back-arrow:hover {
+    text-decoration: underline;
+}  

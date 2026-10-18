@@ -1,0 +1,162 @@
+
+body {
+  
+  transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition-duration: 0.2s;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: black;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none;
+  /* pointer-events: none; */
+
+}
+
+#menu_wrapper {
+
+  position: relative;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-bottom: 50vh;
+  box-sizing: content-box;
+  width: 80vw;
+  height: auto;
+  mix-blend-mode: difference;
+
+}
+
+.collezione { 
+
+  transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition-duration: 0.2s;
+  font-size: 10vw;
+  font-weight: 50rem;
+  white-space: nowrap;
+  text-decoration: none;
+  color: white;
+
+}
+
+.hover {
+
+  transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition-duration: 0.2s;
+  font-size: 13vw;
+  font-weight: bolder;
+  pointer-events: visible;
+  background-color: black;
+
+}
+
+.previewBox{
+
+  transition-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+  transition-duration: 0.4s;
+  position: fixed;
+  box-sizing: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80vw;
+  width: 80vw;
+  height: 80vh;
+  opacity: 0;
+  top: 10vh;
+  right: 5vw;
+
+}
+
+#wip{
+
+  pointer-events: none;
+
+}
+
+#lottaPreview{
+  background-image: url(/preview/lotta.jpg);
+  z-index: -1;
+}
+
+#disPreview{
+  background-image: url(/preview/dis.gif);
+  z-index: -1;
+}
+
+#adjangoPreview{
+  background-image: url(/preview/adjango.jpg);
+  z-index: -1;
+}
+
+#polifonicPreview{
+  background-image: url(/preview/polifonic.jpg);
+  z-index: -1;
+}
+
+#sofiaPreview{
+  background-image: url(/preview/sofia.jpg);
+  z-index: -1;
+}
+
+#streetPreview{
+  background-image: url(/preview/street.jpg);
+  z-index: -1;
+}
+
+#hilfordhp5Preview{
+  background-image: url(/preview/hilfordhp5.jpg);
+  z-index: -1;
+}
+
+@media only screen and (max-width: 700px) {
+
+  #lottaPreview{
+    background-image: url(/preview/lotta_portrait.jpg);
+    z-index: -1;
+  }
+
+  #adjangoPreview{
+    background-image: url(/preview/adjango_portrait.jpg);
+    z-index: -1;
+  }
+  
+  #polifonicPreview{
+    background-image: url(/preview/polifonic_portrait.jpg);
+    z-index: -1;
+  }
+  
+  #sofiaPreview{
+    background-image: url(/preview/sofia_portrait.jpg);
+    z-index: -1;
+  }
+  
+  #streetPreview{
+    background-image: url(/preview/street_portrait.jpg);
+    z-index: -1;
+  }
+
+  #hilfordhp5Preview{
+    background-image: url(/preview/hilfordhp5_portrait.jpg);
+    z-index: -1;
+  }
+
+  body{
+    pointer-events: visible;
+  }
+
+}
+
+.spacer {
+
+  box-sizing: content-box;
+  height: 5vh;
+
+}
+
+#titolo {
+
+  padding-top: 10vh;
+  padding-bottom: 20vh;
+  padding-left: 30vw;
+  margin: auto;
+  width: 40vw;
+}
